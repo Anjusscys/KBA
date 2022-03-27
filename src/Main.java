@@ -13,7 +13,7 @@ public class Main {
 		System.out.println("Enter the maximum limit (X):");  //Message for user to input 
 		x = Integer.parseInt(buff.readLine());   //Reading the input from user
 		for (int i = 0; i<3; i++){  //Iteration for increasing A by 1 and changing maximum to 2X and 3X
-			display(a+i, x*(i+1)); // Calling display function from Display class by passing updated a and x
+			display(a+i, x*(i+1)); // Calling display function by passing updated a and x
 		}
 		System.out.println("End of programme!");
 
